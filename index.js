@@ -1,7 +1,6 @@
 var btn = document.getElementById("btn");
 btn.onclick = function() {
-    var name = document.getElementById("name").value;
-    name = name.toLowerCase;
+    var name = document.getElementById("name").value.toUpperCase;
     if(name == "CONNER CARLILE") {
         alert(name + " sucks");
     }
