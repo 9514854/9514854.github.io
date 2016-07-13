@@ -2,8 +2,14 @@
 <html>
   <body>
       <h1>Nick-Name Creator</h1>
-      <input type=text id="name">
+      <input type=text id="name">Enter Your Name Here</input>
       <button onclick="wiz()">Get</button>
       <script src="index.js"></script>
+      <script>
+      var name = getElementById("name");
+          function wiz() {
+              alert(name);
+          }
+      </script>
   </body>  
 </html>
