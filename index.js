@@ -4,9 +4,9 @@ btn.onclick = function() {
     name = name.toUpperCase;
     document.getElementById("name").value = '';
     if(name == "CONNER CARLILE") {
-        alert(name.toLowerCase + " sucks");
+        alert(name.toLowerCase() + " sucks");
     }
     else {
-        alert("Hello, " + name.toLowerCase);
+        alert("Hello, " + name.toLowerCase());
     }
 };
