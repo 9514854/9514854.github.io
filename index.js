@@ -1,2 +1,4 @@
 var name = document.getElementById("name").value;
-alert(name);
+if(name != "") {
+    alert(name);
+}
