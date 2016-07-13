@@ -1,4 +1,5 @@
 var name = document.getElementById("name").value;
-function wiz() {
+var btn = document.getElementById("btn");
+btn.onclick = function() {
     alert(name);
-}
+};
