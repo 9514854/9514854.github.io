@@ -1,7 +1,6 @@
 var name = document.getElementById("name").value;
-if(name == "") {
-}
+var btn = document.getElementById("btn").innerHTML;
 
-else {
+btn.onlick = function() {
     alert(name);
 }
