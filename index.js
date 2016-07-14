@@ -7,7 +7,7 @@ btn.onclick = function() {
     }
     if(name == "chloee") {
         document.getElementById("tag").innerHTML = '';
-        document.getElementById("tag").innerHTML += "I wanna bang you."
+        document.getElementById("tag").innerHTML += "Your nickname is sexy"
     }
     else {
         var m = nick.splice(0, 1);
