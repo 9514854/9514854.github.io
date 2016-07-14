@@ -12,4 +12,5 @@ btn.onclick = function() {
     alert("Your nickname is " + nick[0] + nick[-1] + nick[-2]);
     }
     document.getElementById("name").value = '';
+    nick = [];
 };
