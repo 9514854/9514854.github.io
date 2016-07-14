@@ -1,7 +1,7 @@
 var nick = [];
 var btn = document.getElementById("btn");
 btn.onclick = function() {
-    var name = document.getElementById("name").value;
+    var name = document.getElementById("name").value.toLowerCase();
     for(var i = 0; i < name.length; i++) {
         nick.push(name[i]);
     }
