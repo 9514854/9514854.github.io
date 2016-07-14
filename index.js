@@ -9,7 +9,7 @@ btn.onclick = function() {
         alert(name + " sucks");
     }
     else {
-        var n = nick.splice(-2, 0);
+        var n = nick.splice(-2, 2);
     alert("Your nickname is " + nick[0] + n);
     }
     document.getElementById("name").value = '';
