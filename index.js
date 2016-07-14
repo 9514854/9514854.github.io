@@ -10,7 +10,7 @@ btn.onclick = function() {
         document.getElementById("tag").innerHTML += "Your nickname is sexy"
     }
     else {
-        var m = nick.splice(0, 1);
+        var m = nick.splice(0, 1).toUpperCase();
         var n = nick.splice(-2, 1);
         var a = nick.splice(-1, 1);
         document.getElementById("tag").innerHTML = '';
