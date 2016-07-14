@@ -5,9 +5,9 @@ btn.onclick = function() {
     for(var i = 0; i < name.length; i++) {
         nick.push(name[i]);
     }
-    if(name == "chloee") {
+    if(name == "conner") {
         document.getElementById("tag").innerHTML = '';
-        document.getElementById("tag").innerHTML += "Your nickname is sexy";
+        document.getElementById("tag").innerHTML += "Your nickname is Awesome";
     }
     else {
         var m = nick.splice(0, 1);
