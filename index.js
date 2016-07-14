@@ -1,5 +1,12 @@
 var nick = [];
 var btn = document.getElementById("btn");
+document.getElementById("btn")
+    .addEventListener("keyup", function(event) {
+    event.preventDefault();
+    if (event.keyCode == 13) {
+        document.getElementById("btn").click();
+    }
+});
 btn.onclick = function() {
     var name = document.getElementById("name").value.toLowerCase();
     for(var i = 0; i < name.length; i++) {
