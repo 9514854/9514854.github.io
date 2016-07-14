@@ -9,7 +9,7 @@ btn.onclick = function() {
         var n = nick.splice(-2, 1);
         var a = nick.splice(-1, 1);
         document.getElementById("tag").innerHTML = '';
-        document.getElementById("tag").innerHTML += "Your nickname is " + m.toUpperCase() + n + a;
+        document.getElementById("tag").innerHTML += "Your nickname is " + m + n + a;
     document.getElementById("name").value = '';
     nick = [];
 };
