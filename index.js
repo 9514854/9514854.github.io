@@ -7,14 +7,15 @@ btn.onclick = function() {
     }
     if(name == "chloee") {
         document.getElementById("tag").innerHTML = '';
-        document.getElementById("tag").innerHTML += "Your nickname is sexy"
+        document.getElementById("tag").innerHTML += "Your nickname is sexy";
     }
     else {
-        var m = nick.splice(0, 1).toUpperCase();
+        var m = nick.splice(0, 1);
+        var mn = m.toUpperCase();
         var n = nick.splice(-2, 1);
         var a = nick.splice(-1, 1);
         document.getElementById("tag").innerHTML = '';
-        document.getElementById("tag").innerHTML += "Your nickname is " + m + n + a;
+        document.getElementById("tag").innerHTML += "Your nickname is " + mn + n + a;
     }
     document.getElementById("name").value = '';
     nick = [];
