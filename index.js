@@ -2,7 +2,9 @@ var nick = [];
 var btn = document.getElementById("btn");
 btn.onclick = function() {
     var name = document.getElementById("name").value;
-    nick.push(nick.split);
+    for(var i = 0; i < name.length; i++) {
+        nick.push(name[i]);
+    }
     if(name == "conner carlile") {
         alert(name + " sucks");
     }
