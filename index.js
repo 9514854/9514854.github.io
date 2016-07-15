@@ -16,6 +16,10 @@ btn.onclick = function() {
         document.getElementById("tag").innerHTML = '';
         document.getElementById("tag").innerHTML += "Your nickname is Awesome";
     }
+    else if (name == "lance") {
+       document.getElementById("tag").innerHTML = '';
+        document.getElementById("tag").innerHTML += "Your nickname is Dildo"; 
+    }
     else {
         var m = nick.splice(0, 1);
         var n = nick.splice(-2, 1);
