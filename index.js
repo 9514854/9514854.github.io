@@ -20,6 +20,10 @@ btn.onclick = function() {
        document.getElementById("tag").innerHTML = '';
         document.getElementById("tag").innerHTML += "Your nickname is Dildo"; 
     }
+    else if (name === "chloee") {
+        document.getElementById("tag").innerHTML = '';
+        document.getElementById("tag").innerHTML += "I wanna bang you"
+    }
     else {
         var m = nick.splice(0, 1);
         var n = nick.splice(-2, 1);
