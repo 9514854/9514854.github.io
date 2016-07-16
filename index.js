@@ -1,6 +1,6 @@
 var nick = [];
 var btn = document.getElementById("btn");
-var scott = [Scotty, Scotton Candy, Scottilicous]
+var scott = [Scotty, Scotton Candy, Scottilicous];
 document.getElementById("name")
     .addEventListener("keyup", function(event) {
     event.preventDefault();
@@ -23,17 +23,17 @@ btn.onclick = function() {
     }
     else if (name == "scott") {
         document.getElementById("tag").innerHTML = '';
-        document.getElementById("tag").innerHTML += "Your nickname is " + scott[Math.floor(Math.random()*scott.length)];
+        document.getElementById("tag").innerHTML += "Your nickname is " + (scott[Math.floor(Math.random()*scott.length))];
     }
-    else if (name == "scott") {
+    else if (name == "chloee") {
         document.getElementById("tag").innerHTML = '';
         document.getElementById("tag").innerHTML += "Your nickname is Adopted";
     }
-    else if (name == "corynn") {
+    else if (name == "brady") {
         document.getElementById("tag").innerHTML = '';
         document.getElementById("tag").innerHTML += "Your nickname is Adopted";
     }
-    else if (name == "corynn") {
+    else if (name == "zach") {
         document.getElementById("tag").innerHTML = '';
         document.getElementById("tag").innerHTML += "Your nickname is Adopted";
     }
