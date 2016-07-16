@@ -18,11 +18,11 @@ btn.onclick = function() {
     }
     else if (name == "lance") {
        document.getElementById("tag").innerHTML = '';
-        document.getElementById("tag").innerHTML += "Your nickname is Dildo"; 
+        document.getElementById("tag").innerHTML += "Your nickname is Stoned"; 
     }
-    else if (name === "chloee") {
+    else if (name == "corynn") {
         document.getElementById("tag").innerHTML = '';
-        document.getElementById("tag").innerHTML += "I wanna bang you"
+        document.getElementById("tag").innerHTML += "Your nickname is Adopted";
     }
     else {
         var m = nick.splice(0, 1);
