@@ -23,7 +23,7 @@ btn.onclick = function() {
     }
     else if (name == "scott") {
         document.getElementById("tag").innerHTML = '';
-        document.getElementById("tag").innerHTML += "Your nickname is " + (scott[Math.floor(Math.random()*scott.length))];
+        document.getElementById("tag").innerHTML += "Your nickname is " + (scott[Math.floor(Math.random()*scott.length)]);
     }
     else if (name == "chloee") {
         document.getElementById("tag").innerHTML = '';
