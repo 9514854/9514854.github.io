@@ -1,5 +1,6 @@
 var nick = [];
 var btn = document.getElementById("btn");
+var scott = [Scotty, Scotton Candy, Scottilicous]
 document.getElementById("name")
     .addEventListener("keyup", function(event) {
     event.preventDefault();
@@ -19,6 +20,18 @@ btn.onclick = function() {
     else if (name == "lance") {
        document.getElementById("tag").innerHTML = '';
         document.getElementById("tag").innerHTML += "Your nickname is Stoned"; 
+    }
+    else if (name == "scott") {
+        document.getElementById("tag").innerHTML = '';
+        document.getElementById("tag").innerHTML += "Your nickname is " + scott[Math.floor(Math.random()*scott.length)];
+    }
+    else if (name == "scott") {
+        document.getElementById("tag").innerHTML = '';
+        document.getElementById("tag").innerHTML += "Your nickname is Adopted";
+    }
+    else if (name == "corynn") {
+        document.getElementById("tag").innerHTML = '';
+        document.getElementById("tag").innerHTML += "Your nickname is Adopted";
     }
     else if (name == "corynn") {
         document.getElementById("tag").innerHTML = '';
