@@ -1,6 +1,5 @@
 var nick = [];
 var btn = document.getElementById("btn");
-var scott = ["Scotty", "Scotton Candy", "Scottilicous"];
 document.getElementById("name")
     .addEventListener("keyup", function(event) {
     event.preventDefault();
