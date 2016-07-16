@@ -25,18 +25,6 @@ btn.onclick = function() {
         document.getElementById("tag").innerHTML = '';
         document.getElementById("tag").innerHTML += "Your nickname is " + (scott[Math.floor(Math.random()*scott.length)]);
     }
-    else if (name == "chloee") {
-        document.getElementById("tag").innerHTML = '';
-        document.getElementById("tag").innerHTML += "Your nickname is Adopted";
-    }
-    else if (name == "brady") {
-        document.getElementById("tag").innerHTML = '';
-        document.getElementById("tag").innerHTML += "Your nickname is Adopted";
-    }
-    else if (name == "zach") {
-        document.getElementById("tag").innerHTML = '';
-        document.getElementById("tag").innerHTML += "Your nickname is Adopted";
-    }
     else {
         var m = nick.splice(0, 1);
         var n = nick.splice(-2, 1);
