@@ -1,6 +1,10 @@
 var btn = document.getElementById("btn");
 var conner = ["Awesome", "Conman", "Con"];
-function ranNick(ran) {
+var randomNicknameGenerators = [
+    function(name) { return name[0] + name[1] + name[name.length - 1] },
+    function(name) { return name[0] + name[Math.floor(name.length / 2)] + name[name.length - 1] }
+]
+function ranElement(ran) {
     return ran[Math.floor(Math.random()*ran.length)];
 }
 
@@ -18,9 +22,9 @@ document.getElementById("name")
 btn.onclick = function() {
     var name = document.getElementById("name").value.toLowerCase();
     
-    if (name == "conner") newNick(ranNick(conner));
+    if (name == "conner") newNick(ranElement(conner));
     else if (name == "lance") newNick("Sick");
-    else newNick(name[0] + name[1] + name[name.length - 1]);
+    else newNick(ranElement(randomNicknameGenerators)(name));
     
     document.getElementById("name").value = '';
 };
