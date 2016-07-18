@@ -1,5 +1,8 @@
 var btn = document.getElementById("btn");
-var conner = ["Awesome", "Conman", "Con"]
+var conner = ["Awesome", "Conman", "Con"];
+function ranNick(array) {
+    array[Math.floor(Math.random()*array.length)];
+}
 
 function newNick(nick) {
     document.getElementById("tag").innerHTML = "Your nickname is " + nick;
@@ -15,7 +18,7 @@ document.getElementById("name")
 btn.onclick = function() {
     var name = document.getElementById("name").value.toLowerCase();
     
-    if (name == "conner") newNick(conner[Math.floor(Math.random()*conner.length)]);
+    if (name == "conner") newNick(ranNick(conner));
     else if (name == "lance") newNick("Sick");
     else newNick(name[0] + name[1] + name[name.length - 1]);
     
