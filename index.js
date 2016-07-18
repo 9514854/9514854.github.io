@@ -21,7 +21,7 @@ btn.onclick = function() {
         document.getElementById("tag").innerHTML += "Your nickname is Stoned"; 
     }
     else {
-        var m = nick.splice(0, 1);
+        var m = nick[0];
         var n = nick.splice(1, 1);
         var a = nick.splice(-1, 1);
         document.getElementById("tag").innerHTML = '';
