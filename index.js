@@ -1,5 +1,5 @@
 var btn = document.getElementById("btn");
-var conner = ["Awesome", "Conman", "Con"];
+var conner = ["Awesome", "Conman", "Con", "Concon"];
 var randomNicknameGenerators = [
     function(name) { return name[0] + name[1] + name[name.length - 1] },
     function(name) { return name[0] + name[Math.floor(name.length / 2)] + name[name.length - 1] }
