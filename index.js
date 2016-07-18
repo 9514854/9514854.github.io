@@ -22,8 +22,8 @@ btn.onclick = function() {
     }
     else {
         var m = nick[0];
-        var n = nick.splice(1, 1);
-        var a = nick[-1];
+        var n = nick[1];
+        var a = nick.splice(-1, 1);
         document.getElementById("tag").innerHTML = '';
         document.getElementById("tag").innerHTML += "Your nickname is " + m + n + a;
     }
