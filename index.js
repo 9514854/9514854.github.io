@@ -1,7 +1,7 @@
 var btn = document.getElementById("btn");
 var conner = ["Awesome", "Conman", "Con"];
 function ranNick(array) {
-    array[Math.floor(Math.random()*array.length)];
+    return array[Math.floor(Math.random()*array.length)];
 }
 
 function newNick(nick) {
