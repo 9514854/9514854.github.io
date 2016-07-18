@@ -21,11 +21,10 @@ btn.onclick = function() {
         document.getElementById("tag").innerHTML += "Your nickname is Stoned"; 
     }
     else {
-        var m = nick.splice(0, 1);
-        var n = nick.splice(1, 1);
+        var m = nick.splice(0, 2);
         var a = nick.splice(-1, 1);
         document.getElementById("tag").innerHTML = '';
-        document.getElementById("tag").innerHTML += "Your nickname is " + m + n + a;
+        document.getElementById("tag").innerHTML += "Your nickname is " + m + a;
     }
     document.getElementById("name").value = '';
     nick = [];
