@@ -8,6 +8,7 @@ h1 {
 }
 body {
     background-image: url(http://kingofwallpapers.com/space/space-008.jpg);
+    background: no-repeat top center fixed;
 }
 #tag {
     padding-left: 44%;
