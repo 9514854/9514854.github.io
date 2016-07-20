@@ -15,6 +15,7 @@ var emilee = ["Emi", "Millie", "Miles", "Emilinator"];
 var elizabeth = ["Liz", "Lizzi", "Beth", "Eli", "Lizinator"];
 var annie = ["Ann", "Aninator", "Annika"];
 var lance = ["Lanny", "Lancinator", "Lane", "Lace"];
+var matthew = ["Mat", "Matty", "Mattinator", "Mattious"];
 
 var randomNicknameGenerators = [
     function(name) { return name[0] + name[1] + name[name.length - 1] },
@@ -58,6 +59,7 @@ btn.onclick = function() {
     else if (name == "emilee") nickList(emilee);
     else if (name == "elizabeth") nickList(elizabeth);
     else if (name == "annie") nickList(annie);
+    else if (name == "matthew") nickList(matthew);
     else newNick(ranElement(randomNicknameGenerators)(name));
     
     document.getElementById("name").value = '';
