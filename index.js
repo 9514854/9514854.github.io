@@ -5,6 +5,16 @@ var isaac = ["Ike", "Ice", "Izzy"];
 var scott = ["Scotty", "Skim Milk", "Otto", "Scooter"];
 var corynn = ["Rynn", "Cory", "Corn", "Coin", "Corynthian-Leather"];
 var weston = ["Westy", "Westonio-Bandaris", "West"];
+var savannah = ["Vanna", "Save", "Savannah-Banana", "Banana"];
+var mindy = ["The Mindinator", "Mindy-Babindy", "Melinda"];
+var riley = ["Rye", "Rile", "Rilo", "Lee", "Rilinator"];
+var brady = ["Brad", "Rad", "Raid", "Bradinator"];
+var zach = ["Zacharious", "ZZ", "Zach-Attack", "Zachinator"];
+var chloee = ["Chlo", "Coco", "Lolo", "Chloinator"];
+var emilee = ["Emi", "Millie", "Miles", "Emilinator"];
+var elizabeth = ["Liz", "Lizzi", "Beth", "Eli", "Lizinator"];
+var annie = ["Ann", "Aninator", "Annika"];
+
 var randomNicknameGenerators = [
     function(name) { return name[0] + name[1] + name[name.length - 1] },
     function(name) { return name[0] + name[Math.floor(name.length / 2)] + name[name.length - 1] }
@@ -33,10 +43,19 @@ btn.onclick = function() {
     if (name == "conner") newNick(ranElement(conner));
     else if (name == "brandon") nickList(brandon);
     else if (name == "lance") newNick("Sick");
-    else if (name == "isaac") newNick(ranElement(isaac));
-    else if (name == "scott") newNick(ranElement(scott));
-    else if (name == "corynn") newNick(ranElement(corynn));
-    else if (name == "weston") newNick(ranElement(weston));
+    else if (name == "isaac") nickList(isaac);
+    else if (name == "scott") nickList(scott);
+    else if (name == "corynn") nickList(corynn);
+    else if (name == "weston") nickList(weston);
+    else if (name == "savannah") nickList(savannah);
+    else if (name == "mindy") nickList(mindy);
+    else if (name == "riley") nickList(riley);
+    else if (name == "brady") nickList(brady);
+    else if (name == "zach") nickList(zach);
+    else if (name == "chloee") nickList(chloee);
+    else if (name == "emilee") nickList(emilee);
+    else if (name == "elizabeth") nickList(elizabeth);
+    else if (name == "annie") nickList(annie);
     else newNick(ranElement(randomNicknameGenerators)(name));
     
     document.getElementById("name").value = '';
