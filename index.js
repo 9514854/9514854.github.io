@@ -14,10 +14,12 @@ var chloee = ["Chlo", "Coco", "Lolo", "Chloinator"];
 var emilee = ["Emi", "Millie", "Miles", "Emilinator"];
 var elizabeth = ["Liz", "Lizzi", "Beth", "Eli", "Lizinator"];
 var annie = ["Ann", "Aninator", "Annika"];
+var lance = ["Lanny", "Lancinator", "Lane", "Lace"];
 
 var randomNicknameGenerators = [
     function(name) { return name[0] + name[1] + name[name.length - 1] },
-    function(name) { return name[0] + name[Math.floor(name.length / 2)] + name[name.length - 1] }
+    function(name) { return name[0] + name[Math.floor(name.length / 2)] + name[name.length - 1]},
+    function (name) {return name[0] + name[1] + name[name.length - 2] + name[name.length - 1]}
 ];
 function ranElement(ran) {
     return ran[Math.floor(Math.random()*ran.length)];
@@ -42,7 +44,7 @@ btn.onclick = function() {
     
     if (name == "conner") newNick(ranElement(conner));
     else if (name == "brandon") nickList(brandon);
-    else if (name == "lance") newNick("Sick");
+    else if (name == "lance") nickList(lance);
     else if (name == "isaac") nickList(isaac);
     else if (name == "scott") nickList(scott);
     else if (name == "corynn") nickList(corynn);
