@@ -67,7 +67,8 @@ btn.onclick = function() {
     else if (name == "kaleb") nickList(kaleb);
     else if (name == "alison") nickList(alison);
     else if (name == "alyssa") nickList(alyssa);
-    else if (name == "ashlee" || "ashley") nickList(ashlee);
+    else if (name == "ashlee") nickList(ashlee);
+    else if (name == "ashley") nickList(ashlee);
     else newNick(ranElement(randomNicknameGenerators)(name));
     
     document.getElementById("name").value = '';
