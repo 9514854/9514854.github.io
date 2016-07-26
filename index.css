@@ -7,7 +7,7 @@ h1 {
     margin-top: 15%;
 }
 body {
-    background-image:url(https://i.ytimg.com/vi/ZMGRn0mngTs/maxresdefault.jpg) ;
+    background-image:url('https://i.ytimg.com/vi/ZMGRn0mngTs/maxresdefault.jpg') ;
 }
 #tag {
     padding-left: 44%;
