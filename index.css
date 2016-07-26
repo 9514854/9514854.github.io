@@ -11,6 +11,9 @@ body {
     background-repeat: no-repeat;
     background-position: right top;
     background-attachment: fixed;
+     max-width: 100%;
+    height: auto;
+    width: auto;
 }
 #tag {
     padding-left: 44%;
