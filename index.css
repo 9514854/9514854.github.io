@@ -6,14 +6,9 @@ h1 {
     margin-left: 44%;
     margin-top: 15%;
 }
-body {
-    background-image:url('https://i.ytimg.com/vi/ZMGRn0mngTs/maxresdefault.jpg') ;
-    background-repeat: no-repeat;
-    background-position: right top;
-    background-attachment: fixed;
-     max-width: 100%;
-    height: auto;
-    width: auto;
+img{
+    max-width: 100%;
+   height: auto;
 }
 #tag {
     padding-left: 44%;
