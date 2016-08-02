@@ -14,10 +14,22 @@ html {
     height: 100%;
     z-index: 1;
 }
+#img {
+    background-color: white;
+    border-radius: 15px;
+   position: relative;
+   z-index: 5;
+}
 h1 {
+    width: 100%;
+    background-color: black;
+    position: relative;
+    z-index: 4;
+}
+h2 {
     color: white;
     text-align: center;
-    padding-top: 23%;
+    padding-top: 20%;
     position: relative;
     z-index: 2;
     font-size: 50px;
