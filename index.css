@@ -6,7 +6,7 @@ html {
   background-size: cover;
 }
 .layer {
-    background-color: rgba(40, 40, 40, 0.4);
+    background-color: rgba(40, 40, 40, 0.6);
     position: absolute;
     top: 0;
     left: 0;
@@ -23,16 +23,30 @@ h1 {
     font-size: 50px;
 }
 #btns :hover {
-background: #783f04;
+border-color: #666666;
+color: #666666;
 }
 #btns {
+    padding-left: 34%;
     position: relative;
     z-index: 3;
 }
 #nick {
-   background:    #f6b26b;
-border-radius: 5px;
-color:         black;
+   background-color: transparent;
+   border-color: white;
+border-radius: 10px;
+color:         white;
+display:       inline-block;
+padding:       4px 10px;
+font:          normal 700 24px/1 "Calibri", sans-serif;
+text-align:    center;
+text-shadow:   none;
+}
+#src {
+   background-color: transparent;
+   border-color: white;
+border-radius: 10px;
+color:         white;
 display:       inline-block;
 padding:       4px 10px;
 font:          normal 700 24px/1 "Calibri", sans-serif;
