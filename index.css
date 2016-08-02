@@ -22,3 +22,20 @@ h1 {
     z-index: 2;
     font-size: 50px;
 }
+#btns :hover {
+background: #783f04;
+}
+#btns {
+    position: relative;
+    z-index: 3;
+}
+#nick {
+   background:    #f6b26b;
+border-radius: 5px;
+color:         black;
+display:       inline-block;
+padding:       4px 10px;
+font:          normal 700 24px/1 "Calibri", sans-serif;
+text-align:    center;
+text-shadow:   none;
+}
