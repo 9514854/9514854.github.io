@@ -39,9 +39,13 @@ h2 {
     z-index: 2;
     font-size: 50px;
 }
-#btns :hover {
-border-color: #666666;
-color: #666666;
+#nick :hover{
+    border-color: #666666;
+    color: #666666;
+}
+#src :hover {
+   border-color: #666666;
+   color: #666666;
 }
 #btns {
     width: 50%;
@@ -77,3 +81,4 @@ html, body {
     margin: 0;
     padding: 0
 }
+
