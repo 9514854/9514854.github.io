@@ -73,6 +73,7 @@ btn.onclick = function() {
     else if (name == "ashley") nickList(ashlee);
     else if (name == "crag") nickList(craig);
     else if (name == "luann") nickList(luann);
+    else if (name == "") document.getElementById('tag').innerHTML = "Please Enter a Nickname";
     else newNick(ranElement(randomNicknameGenerators)(name));
     
     document.getElementById("name").value = '';

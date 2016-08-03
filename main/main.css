@@ -46,11 +46,11 @@ font:          normal 700 17px/1 "Calibri", sans-serif;
 text-align:    center;
 text-shadow:   none;
 }
-#back :hover {
+#backb :hover {
     border-color: #666666;
     color: #666666;
 }
-#btn :hover {
+#btnb :hover {
     border-color: #666666;
     color: #666666;
 }
