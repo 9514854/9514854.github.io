@@ -22,7 +22,7 @@ var alyssa = ["Aly", "Lys", "Alysinator", "Lyssa"];
 var ashlee = ["Ash", "Ashlyn", "Ashinator", "Aly"];
 var craig = ["Craig Diggity", "Craiginator", "Big C", "Craigidy"];
 var luann = ["Luinator", "Lane", "Lu"];
-var lucas = ["Lukey-Pukey, Luke, Lulu, Lucky-Charms, Lucinator"];
+var lucas = ["Lukey-Pukey", "Luke", "Lulu", "Lucky-Charms", "Lucinator"];
 
 var randomNicknameGenerators = [
     function(name) { return name[0] + name[1] + name[name.length - 1] },
