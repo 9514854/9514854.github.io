@@ -52,7 +52,6 @@ h2 {
     z-index: 3;
 }
 #nick {
-    outline: none;
    background-color: transparent;
    border-color: white;
 border-radius: 10px;
@@ -64,7 +63,6 @@ text-align:    center;
 text-shadow:   none;
 }
 #src {
-    outline: none;
    background-color: transparent;
    border-color: white;
 border-radius: 10px;
@@ -79,4 +77,9 @@ html, body {
     margin: 0;
     padding: 0
 }
-
+#nick:focus {
+    outline: none;
+}
+#src:focus {
+    outline: none;
+}
