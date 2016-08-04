@@ -5,6 +5,7 @@ h1 {
     z-index: 5;
 }
 #name {
+    outline: none;
     color: white;
     text-align: center;
     font-weight: bold;
@@ -31,6 +32,7 @@ html {
   background-size: cover;
 }
 #back {
+    outline: none;
      background-color: transparent;
    border-color: white;
 border-radius: 10px;
@@ -44,6 +46,7 @@ position: relative;
     z-index: 5;
 }
 #btn {
+    outline: none;
      background-color: transparent;
    border-color: white;
 border-radius: 10px;
