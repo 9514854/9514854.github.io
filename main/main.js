@@ -22,6 +22,7 @@ var alyssa = ["Aly", "Lys", "Alysinator", "Lyssa"];
 var ashlee = ["Ash", "Ashlyn", "Ashinator", "Aly"];
 var craig = ["Craig Diggity", "Craiginator", "Big C", "Craigidy"];
 var luann = ["Luinator", "Lane", "Lu"];
+var lucas = ["Lukey-Pukey, Luke, Lulu, Lucky-Charms, Lucinator"];
 
 var randomNicknameGenerators = [
     function(name) { return name[0] + name[1] + name[name.length - 1] },
@@ -73,6 +74,7 @@ btn.onclick = function() {
     else if (name == "ashley") nickList(ashlee);
     else if (name == "crag") nickList(craig);
     else if (name == "luann") nickList(luann);
+    else if (name == "lucas") nickList(lucas);
     else if (name == "") document.getElementById('tag').innerHTML = "Please Enter a Nickname";
     else newNick(ranElement(randomNicknameGenerators)(name));
     
