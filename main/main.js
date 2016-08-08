@@ -53,7 +53,7 @@ btn.onclick = function() {
     .addEventListener("keyup", function (event) {
         event.preventDefault();
         if (event.keyCode == 38) {
-            document.getElementById('tag').innerHTML = document.getElementById("name");
+            document.getElementById('name').innerHTML = name;
         }
     });
     
