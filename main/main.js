@@ -49,6 +49,13 @@ document.getElementById("name")
     });
 btn.onclick = function() {
     var name = document.getElementById("name").value.toLowerCase();
+    document.getElementById("name")
+    .addEventListener("keyup", function (event) {
+        event.preventDefault();
+        if (event.keyCode == 38) {
+            document.getElementById('tag').innerHTML = document.getElementById("name");
+        }
+    });
     
     if (name == "conner") newNick(ranElement(conner));
     else if (name == "brandon") nickList(brandon);
